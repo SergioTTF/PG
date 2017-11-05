@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <canvas id="canvas" width="700" height="400"></canvas>
+    <div id="config">
+    <input type="checkbox" onchange="hideLine(this)"> Hide lines
+    <input type="checkbox" onchange="hidePoints(this)"> Hide points
+    <input type="checkbox" onchange="hideCurves(this)"> Hide curves
+      <button id="btn" onclick="hideCurveOfCurves(this)">Desenhe curva de curvas</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
